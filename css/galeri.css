@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(182, 95, 109);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1 {
+    text-align: center;
+}
+div{
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    border-radius: 20px;
+}
+.gallery{
+    width: 260px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    text-align: center;
+    padding: 0;
+    border-radius: 10px;
+    background-color: aqua;
+  }
+  .gallery1{
+    width: 260px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    text-align: center;
+    padding: 0;
+    border-radius: 10px;
+    background-color: rgb(34, 92, 92);
+  }   
+.gallery:hover {
+    border: 2px solid #777;
+  }
+   
+ 
