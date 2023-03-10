@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+    text-align: center;
+    border: 3px solid black;
+    padding: 2px;
+}
+.wrapper > div {
+    border: 2px solid blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.satu{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: rgb(224, 162, 162);
+}
+.dua {
+    grid-column: 3/5;
+    grid-row: 1;
+    background-color: rgb(176, 209, 238);
+}
+.tiga {
+    grid-column: 3;
+    grid-row: 2/4;
+    background-color: rgb(176, 238, 224);
+}
+.empat {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgb(176, 238, 214);
+}
+.lima {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    background-color: rgb(238, 176, 228);
+}
+.enam {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: rgb(238, 176, 228);
+}
+.tujuh {
+    grid-column: 4;
+    grid-row: 3/5;
+    background-color: rgb(236, 176, 238);
+}
+.delapan {
+    grid-column: 1/4;
+    grid-row: 5;
+    background-color: rgb(238, 176, 191);
+}
+.sembilan {
+    grid-column: 4;
+    grid-row: 5;
+    background-color: rgb(232, 238, 176);
+}
+.sepuluh{
+    grid-column: 1/5;
+    grid-row: 6;
+    background-color: rgb(219, 238, 176);
+}
+
