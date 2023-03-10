@@ -4,6 +4,9 @@
 body {
     background-color: aqua;
 }
+h1 {
+    text-align: center;
+}
 .wrapper {
     max-width: 500px;
     margin: 0 auto;
@@ -12,7 +15,8 @@ body {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px,auto);
     text-align: center;
-    border: 3px solid black;
+    border: 5px solid black;
+    border-right: 10px solid black;
     padding: 2px;
 }
 .wrapper > div {
@@ -72,4 +76,3 @@ body {
     grid-row: 6;
     background-color: rgb(219, 238, 176);
 }
-
