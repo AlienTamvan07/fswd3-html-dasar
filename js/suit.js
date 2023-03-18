@@ -24,7 +24,7 @@ while(tanya) {
         hasil = "pilihan tidak ada";
     }
 
-    alert("pilihanmu: " + player  + " pilihan komputer : " + computer +" \nmaka hasilnya : " + hasil);
+    alert("pilihanmu: " + player  + "\npilihan komputer : " + computer +" \nmaka hasilnya : " + hasil);
 
     tanya = confirm("lagi?");
 }
