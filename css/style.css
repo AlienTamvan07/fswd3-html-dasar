@@ -1,4 +1,5 @@
 body, html {
+    background-color: #b0bac7;
     padding: 0;
     margin: 0;
     font-size: 20px;
@@ -7,12 +8,14 @@ body, html {
 .container {
     width: 1200px;
     margin: 50px auto;
-    border: 5px solid black;
+    border: 5px solid rgb(61, 13, 151);
     box-sizing: border-box;
 }
 header {
     padding: 40px 0 0 0;
     background-color: aqua;
+    font-family: lucida handwriting;
+    font-size: 40px;
 }
 .link {
     padding: 20px 0;
@@ -28,7 +31,7 @@ display: block;
 width: 150px;
 }
 .link ul {
-    background: #535ebd;
+    background: #7880c9;
     padding: 0;
     list-style: none;
     position: relative;
@@ -95,17 +98,17 @@ width: 150px;
     width: 30%;
 }
 .sidebar aside{
-    background-color: antiquewhite;
+    background-color: rgb(215, 231, 250);
     padding: 100px;
 }
 .sidebar nav {
-    background-color: aliceblue;
+    background-color: rgb(161, 172, 182);
     padding: 165px 0;
     font-size: 20px;
     text-align: center;
 }
 main{
-    background-color: rgb(199, 199, 153);
+    background-color: rgb(167, 197, 211);
     padding: 50px 0;
     width: 70%;
     box-sizing: border-box; 
