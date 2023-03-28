@@ -1,5 +1,5 @@
-/* Default styles */
 body {
+  background-image: url(../asset/walpp.png);
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -14,9 +14,6 @@ body {
     text-align: left;
   }
 
-  aside a {
-    text-decoration: none;
-  }
   nav ul {
     margin: 0;
     padding: 0;
@@ -88,16 +85,22 @@ body {
   .card-title {
     color: rgb(136, 126, 196); 
     position: absolute;
-    top: 65%;
+    top: 54%;
     left: 13%;
     z-index: 1;
   }
   
   aside {
     flex-shrink: 30%;
-    background-color: #f2f2f2;
+    background-color: #505072;
     padding: 10px;
     border-radius: 5px;
+    color: #fff;
+  }
+  aside a {
+    text-decoration: none;
+    color: #cc9f9f;
+    font-weight: bold;
   }
   
   aside h2 {
@@ -155,14 +158,14 @@ body {
       .card-title {
         color: rgb(48, 32, 27); 
         position: absolute;
-        top: 60%;
+        top: 40%;
         left: 10%;
         z-index: 1;
       }
       .card-text {
         color: rgb(14, 13, 22); 
         position: absolute;
-        top: 75%;
+        top: 60%;
         left: 10%;
         z-index: 1;
       }

@@ -5,7 +5,7 @@ let todoContainer = document.querySelector('.list-group');
 // Mengambil nilai todoHTML dari API saat halaman direfresh
 async function fetchTodo() {
   try {
-    const response = await fetch('https://crudcrud.com/961c5d695d714afcb09c14c04d68d663/todo');
+    const response = await fetch('https://crudcrud.com/f8cb5ab286b6413fb72ce4675254a1f0/todo');
     const data = await response.json();
     if (data.length > 0) {
       todoContainer.innerHTML = '';
@@ -51,7 +51,7 @@ btnSimpan.addEventListener('click', async function () {
 
     // Menyimpan nilai todoHTML ke dalam API setiap kali terjadi perubahan pada tampilan list
     try {
-      const response = await fetch('https://crudcrud.com/api/961c5d695d714afcb09c14c04d68d663/todo', {
+      const response = await fetch('https://crudcrud.com/api/f8cb5ab286b6413fb72ce4675254a1f0/todo', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -78,7 +78,7 @@ function addEventListeners() {
       // Mengubah status todo pada API ketika checkbox diubah
       try {
         const id = input.parentElement.nextElementSibling.dataset.id;
-        const response = await fetch(`https://crudcrud.com/api/961c5d695d714afcb09c14c04d68d663/todo/${id}`, {
+        const response = await fetch(`https://crudcrud.com/api/f8cb5ab286b6413fb72ce4675254a1f0/todo/${id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
