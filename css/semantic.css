@@ -1,0 +1,92 @@
+/* Reset style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 10px;
+  width: 700px;
+}
+
+/* Style untuk elemen header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style untuk elemen main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+main section {
+  flex: 2;
+  margin-right: 20px;
+}
+
+main aside {
+  flex: 1;
+}
+
+main h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+main article {
+  margin-bottom: 20px;
+}
+
+main article a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+main article a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style untuk elemen footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}
